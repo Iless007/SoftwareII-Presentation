@@ -28,3 +28,17 @@ print("atisopom")
 print("daniel lore")
 
 print(".....")
+
+# Función para verificar si un número es par o impar
+def es_par_o_impar(numero):
+    if numero % 2 == 0:
+        return "par"
+    else:
+        return "impar"
+
+# Pedir al usuario que ingrese un número
+numero = int(input("Ingrese un número: "))
+
+# Verificar y mostrar el resultado
+resultado = es_par_o_impar(numero)
+print(f"El número {numero} es {resultado}.")
