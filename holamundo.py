@@ -10,3 +10,5 @@ print("atisopom")
 print("daniel lore")
 
 print(".....")
+ 
+print("90 Gb")
