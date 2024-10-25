@@ -42,3 +42,19 @@ numero = int(input("Ingrese un número: "))
 # Verificar y mostrar el resultado
 resultado = es_par_o_impar(numero)
 print(f"El número {numero} es {resultado}.")
+
+import random
+import string
+
+def generar_contraseña(longitud):
+    caracteres = string.ascii_letters + string.digits + string.punctuation
+    contraseña = ''.join(random.choice(caracteres) for i in range(longitud))
+    return contraseña
+
+# Configura la longitud de la contraseña
+longitud_contraseña = 12
+
+# Genera la contraseña
+contraseña_generada = generar_contraseña(longitud_contraseña)
+
+print("Tu contraseña aleatoria es:", contraseña_generada)
