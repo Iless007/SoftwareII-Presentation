@@ -6,7 +6,7 @@ print(":(")
 
 num1 = 5
 num2 = 7
-sum = num1 + num2 + 5
+sum = num1 + num2
 print (sum)
 
 # Función para convertir Celsius a Fahrenheit
@@ -71,3 +71,5 @@ print("Algo random 9")
 print("Algo random 10")
 
 
+
+print("Otra cosa")
