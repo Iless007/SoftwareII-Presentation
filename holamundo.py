@@ -6,7 +6,7 @@ print(":(")
 
 num1 = 5
 num2 = 7
-sum = num1 + num2
+sum = num1 + num2 + 5
 print (sum)
 
 # Función para convertir Celsius a Fahrenheit
@@ -58,3 +58,16 @@ longitud_contraseña = 12
 contraseña_generada = generar_contraseña(longitud_contraseña)
 
 print("Tu contraseña aleatoria es:", contraseña_generada)
+
+print("Algo random 1")
+print("Algo random 2")
+print("Algo random 3")
+print("Algo random 4")
+print("Algo random 5")
+print("Algo random 6")
+print("Algo random 7")
+print("Algo random 8")
+print("Algo random 9")
+print("Algo random 10")
+
+
